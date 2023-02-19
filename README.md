@@ -3,7 +3,7 @@
 * polished script up (still bad)
 * thats all
 
-#future stuff
+# future stuff
 
 * blatant, truely blatant and nonblatant mode:
 	* BLATANT MODE: changes the reach sliders cap to 40
