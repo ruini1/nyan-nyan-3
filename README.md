@@ -1,5 +1,5 @@
 # DEVLOG
-* added a walkspeed bypass after so long but the reason it took so wrong was because i wrote it in the wrong place (the start of the script)
+* added a walkspeed bypass after so long but the reason it took so long was because i wrote it in the wrong place (the start of the script)
 * polished script up (still bad)
 * thats all
 
