@@ -9,3 +9,9 @@
 	* BLATANT MODE: changes the reach sliders cap to 40
 	* NONBLATANT: caps the reach slider to 10 
 	* TRUELY BLATANT: caps the reach slider to 300 and unlocks some features in the script such as the movement tab (more coming soon)
+
+
+# script
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ruini1/cake/main/Cake.lua"))()
+```
