@@ -1,3 +1,5 @@
+>press end to toggle the ui btw
+
 # DEVLOG
 >v3.0.3aa
 * temporarily capped reach slider to 15 (will be changed back soon dont worry)
@@ -20,8 +22,4 @@
 * more customization
 
 
-# script
-```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ruini1/cake/main/Cake.lua"))()
-```
-press end to toggle the ui btw
+
