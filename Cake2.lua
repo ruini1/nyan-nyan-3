@@ -482,8 +482,8 @@ SaveManager:IgnoreThemeSettings();
 SaveManager:SetIgnoreIndexes({
 	"MenuKeybind"
 });
-ThemeManager:SetFolder("Cake");
-SaveManager:SetFolder("Cake/Universal"); -- hopefully this doesnt break it
+ThemeManager:SetFolder("PocketCake");
+SaveManager:SetFolder("PocketCake/Universal"); -- hopefully this doesnt break it
 SaveManager:BuildConfigSection(Tabs["UI Settings"]);
 ThemeManager:ApplyToTab(Tabs["UI Settings"]);
 -- the bypass (not a joke)
