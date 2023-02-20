@@ -6,6 +6,7 @@
 	* not really an update but just documenting it here
 	* maybe more features in 3.0.4a
 * removed testing mode
+* added pocket cake (nonblatant), i decided not to add blatant mode as it was useless.
 
 >v3.0.3a
 * added a walkspeed bypass after so long but the reason it took so long was because i wrote it in the wrong place (the start of the script)
