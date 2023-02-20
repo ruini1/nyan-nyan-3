@@ -392,7 +392,7 @@ LeftGroupBox:AddSlider("MySlider", {
 	Text = "Reach",
 	Default = 5,
 	Min = 1,
-	Max = 300, -- just giving the user full capability to stud an entire server if they want to until the future update
+	Max = 15, -- just giving the user full capability to stud an entire server if they want to until the future update (capped to 15 as of now)
 	Rounding = 1,
 	Compact = false
 });
