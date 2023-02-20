@@ -2,14 +2,17 @@
 
 # DEVLOG
 >v3.0.3aa
+
 * temporarily capped reach slider to 15 (will be changed back soon dont worry)
 * renamed script again because i like cake more
 * finally renamed the directories so you can access your themes and configs better
 	* not really an update but just documenting it here
 	* maybe more features in 3.0.4a
+### wouldnt call this a content update so i left it here
 * removed testing mode
 * added pocket cake (nonblatant), i decided not to add blatant mode as it was useless.
 * few minutes later i nerfed the maximum size to 5
+
 
 >v3.0.3a
 * added a walkspeed bypass after so long but the reason it took so long was because i wrote it in the wrong place (the start of the script)
