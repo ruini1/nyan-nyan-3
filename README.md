@@ -6,6 +6,9 @@
 	* not really an update but just documenting it here
 	* maybe more features in 3.0.4a
 * added a testing mode if you want to see updates before its out (might break a LOT or be VERY unstable)
+	```lua
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ruini1/cake/main/CakeTesting.lua"))()
+	```
 
 >v3.0.3a
 * added a walkspeed bypass after so long but the reason it took so long was because i wrote it in the wrong place (the start of the script)
