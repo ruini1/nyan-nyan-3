@@ -371,7 +371,7 @@ local Library = (loadstring(game:HttpGet(repo .. "Library.lua")))(); -- strange 
 local ThemeManager = (loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua")))(); -- self explanatory
 local SaveManager = (loadstring(game:HttpGet(repo .. "addons/SaveManager.lua")))();
 local Window = Library:CreateWindow({ -- renamed to cuteware instead of exodus (i like cuteware better :3)
-	Title = "Cuteware",
+	Title = "Cake",
 	Center = true,
 	AutoShow = true
 });
@@ -479,7 +479,7 @@ end);
 Options.playerwalkspeed:SetValue(16);
 -- misc things (not important)
 Library:SetWatermarkVisibility(true);
-Library:SetWatermark("Cuteware | v3.0.3a");
+Library:SetWatermark("Cake | v3.0.3aa");
 Library.KeybindFrame.Visible = false;
 Library:OnUnload(function()
 	print("Unloaded!");
@@ -501,8 +501,8 @@ SaveManager:IgnoreThemeSettings();
 SaveManager:SetIgnoreIndexes({
 	"MenuKeybind"
 });
-ThemeManager:SetFolder("MyScriptHub");
-SaveManager:SetFolder("MyScriptHub/specific-game");
+ThemeManager:SetFolder("Cake");
+SaveManager:SetFolder("Cake/Universal"); -- hopefully this doesnt break it
 SaveManager:BuildConfigSection(Tabs["UI Settings"]);
 ThemeManager:ApplyToTab(Tabs["UI Settings"]);
 -- the bypass (not a joke)
