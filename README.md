@@ -12,6 +12,7 @@
 * removed testing mode
 * added pocket cake (nonblatant), i decided not to add blatant mode as it was useless.
 * few minutes later i nerfed the maximum size to 5
+* thats all
 
 
 >v3.0.3a
