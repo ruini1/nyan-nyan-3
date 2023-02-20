@@ -1,8 +1,4 @@
-print("unstable branch")
-
-testmode
-
-testmode = true
+local testmode = true
 
 	-- thats all for today, bye!! <3
 local p = game.Players.LocalPlayer; -- applying bypasses at the start so the walkspeed can work
