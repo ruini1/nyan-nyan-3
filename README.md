@@ -1,7 +1,7 @@
 >press end to toggle the ui btw
 
 # DEVLOG
->v3.0.3aa
+### wouldnt call this a content update so i left it here aka v3.0.3aa
 
 * temporarily capped reach slider to 15 (will be changed back soon dont worry)
 * renamed script again because i like cake more
