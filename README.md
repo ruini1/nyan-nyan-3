@@ -2,6 +2,8 @@
 >v3.0.3aa
 * temporarily capped reach slider to 15 (will be changed back soon dont worry)
 * renamed script again because i like cake more
+* not really an update but just documenting it here
+* maybe more features in 3.0.4a
 
 >v3.0.3a
 * added a walkspeed bypass after so long but the reason it took so long was because i wrote it in the wrong place (the start of the script)
