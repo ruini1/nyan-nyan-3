@@ -1,3 +1,37 @@
+--[[ IMPORTANT!!!!!!!
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! THIS TEST SCRIPT IS NOT IN USE ANYMORE, IT JUST SERVES AS A OLD ARCHIVE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+I KEEP THIS HERE TO USE FOR FUTURE REFERENCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]
+
 local testmode = true
 
 	-- thats all for today, bye!! <3
