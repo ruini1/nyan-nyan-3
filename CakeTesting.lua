@@ -1,5 +1,7 @@
 print("unstable branch")
 
+testmode
+
 testmode = true
 
 	-- thats all for today, bye!! <3
