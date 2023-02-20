@@ -373,12 +373,10 @@ local Window = Library:CreateWindow({ -- renamed to cake instead of exodus (i li
 local Tabs = { -- tab management (horrible) (i idnt know they were by order)
 	Main = Window:AddTab("Main"),
 	Misc = Window:AddTab("Misc"),
-	Movement = Window:AddTab("Movement"),
 	["UI Settings"] = Window:AddTab("UI Settings")
 }; -- groupboxes Yay!!! (also unorginized and horrible)
 local LeftGroupBox = Tabs.Main:AddLeftGroupbox("Groupbox");
 local TaffyGroupBox = Tabs.Misc:AddLeftGroupbox("main");
-local MovementGroupBox = Tabs.Movement:AddLeftGroupbox("Main");
 LeftGroupBox:AddLabel("beta");
 LeftGroupBox:AddLabel("early development so\n\ndont expect a lot", true);
 LeftGroupBox:AddDivider();
@@ -387,7 +385,7 @@ LeftGroupBox:AddSlider("MySlider", {
 	Text = "Reach",
 	Default = 5,
 	Min = 1,
-	Max = 15, -- just giving the user full capability to stud an entire server if they want to until the future update (capped to 15 as of now)
+	Max = 10, -- just giving the user full capability to stud an entire server if they want to until the future update (capped to 15 as of now)
 	Rounding = 1,
 	Compact = false
 });
@@ -460,18 +458,6 @@ Toggles.DisableFakeHandleFTI:OnChanged(function()
 	(getgenv()).Configuration["Fake Handle FTI"] = not (getgenv()).Configuration["Fake Handle FTI"];
 end);
 Toggles.DisableFakeHandleFTI:SetValue(false);
-MovementGroupBox:AddSlider("playerwalkspeed", { -- mhm its a basic walkspeed sript that needs no bypasses (u literally have to disable the thing that detects the change )
-	Text = "Walkspeed",
-	Default = 16,
-	Min = 16,
-	Max = 100,
-	Rounding = 1,
-	Compact = false
-});
-Options.playerwalkspeed:OnChanged(function(value)
-	(game:GetService("Players")).LocalPlayer.Character.Humanoid.WalkSpeed = value;
-end);
-Options.playerwalkspeed:SetValue(16);
 -- misc things (not important)
 Library:SetWatermarkVisibility(true);
 Library:SetWatermark("Cake | v3.0.3aa");
