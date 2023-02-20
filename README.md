@@ -4,6 +4,8 @@
 * thats all
 
 # future stuff
+* more features so the ui doesnt look entirely empty
+* more customization
 
 * blatant, truely blatant and nonblatant mode:
 	* BLATANT MODE: changes the reach sliders cap to 40
