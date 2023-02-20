@@ -5,6 +5,7 @@
 
 # future stuff
 * more features so the ui doesnt look entirely empty
+>inb4 more movement
 * more customization
 
 * blatant, truely blatant and nonblatant mode:
