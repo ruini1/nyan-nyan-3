@@ -377,7 +377,7 @@ local Tabs = { -- tab management (horrible) (i idnt know they were by order)
 }; -- groupboxes Yay!!! (also unorginized and horrible)
 local LeftGroupBox = Tabs.Main:AddLeftGroupbox("Groupbox");
 local TaffyGroupBox = Tabs.Misc:AddLeftGroupbox("main");
-LeftGroupBox:AddLabel("beta");
+LeftGroupBox:AddLabel("press end to toggle the ui");
 LeftGroupBox:AddLabel("early development so\n\ndont expect a lot", true);
 LeftGroupBox:AddDivider();
 -- code is mostly messy but this a reach slider that i didnt rename (still works so whatever)
