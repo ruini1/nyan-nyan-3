@@ -366,7 +366,7 @@ local Library = (loadstring(game:HttpGet(repo .. "Library.lua")))(); -- strange 
 local ThemeManager = (loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua")))(); -- self explanatory
 local SaveManager = (loadstring(game:HttpGet(repo .. "addons/SaveManager.lua")))();
 local Window = Library:CreateWindow({ -- renamed to cake instead of exodus (i like cake better :3)
-	Title = "Cake",
+	Title = "Pocket Cake",
 	Center = true,
 	AutoShow = true
 });
@@ -385,7 +385,7 @@ LeftGroupBox:AddSlider("MySlider", {
 	Text = "Reach",
 	Default = 5,
 	Min = 1,
-	Max = 10, -- just giving the user full capability to stud an entire server if they want to until the future update (capped to 15 as of now)
+	Max = 5, -- just giving the user full capability to stud an entire server if they want to until the future update (capped to 15 as of now)
 	Rounding = 1,
 	Compact = false
 });
@@ -460,7 +460,7 @@ end);
 Toggles.DisableFakeHandleFTI:SetValue(false);
 -- misc things (not important)
 Library:SetWatermarkVisibility(true);
-Library:SetWatermark("Cake | v3.0.3aa");
+Library:SetWatermark("Cake | Pocket | v3.0.3aa");
 Library.KeybindFrame.Visible = false;
 Library:OnUnload(function()
 	print("Unloaded!");
