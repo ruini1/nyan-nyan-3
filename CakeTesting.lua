@@ -1,11 +1,6 @@
--- v3.0.3aa
+print('unstable branch')
 
---[[ DEVLOG ]]
---[[
-
-# devlog moved to github
-https://github.com/ruini1/cake
-]]
+testmode = true
 
 	-- thats all for today, bye!! <3
 local p = game.Players.LocalPlayer; -- applying bypasses at the start so the walkspeed can work
@@ -383,11 +378,12 @@ LeftGroupBox:AddLabel("beta");
 LeftGroupBox:AddLabel("early development so\n\ndont expect a lot", true);
 LeftGroupBox:AddDivider();
 -- code is mostly messy but this a reach slider that i didnt rename (still works so whatever)
+if testmode = true then
 LeftGroupBox:AddSlider("MySlider", {
 	Text = "Reach",
 	Default = 5,
 	Min = 1,
-	Max = 15, -- just giving the user full capability to stud an entire server if they want to until the future update (capped to 15 as of now)
+	Max = 300, -- just giving the user full capability to stud an entire server if they want to until the future update (capped to 15 as of now)
 	Rounding = 1,
 	Compact = false
 });
@@ -397,7 +393,27 @@ Options.MySlider:OnChanged(function(value)
 	end;
 	(getgenv()).Circle.Size = value; -- circle slider :33
 end);
+
 Options.MySlider:SetValue(3);
+end
+else
+LeftGroupBox:AddSlider("MySlider", {
+	Text = "Reach",
+	Default = 5,
+	Min = 1,
+	Max = 300, -- just giving the user full capability to stud an entire server if they want to until the future update (capped to 15 as of now)
+	Rounding = 1,
+	Compact = false
+});
+Options.MySlider:OnChanged(function(value)
+	if (getgenv()).Configuration.Active == false then
+		return;
+	end;
+	(getgenv()).Circle.Size = value; -- circle slider :33
+end);
+
+Options.MySlider:SetValue(3);
+end
 (LeftGroupBox:AddLabel("Circle Color")):AddColorPicker("ColorPicker", {
 	Default = Color3.new(0, 1, 0), -- its a circle color picker yay!!! :3
 	Title = "Circle"
