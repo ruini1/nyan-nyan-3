@@ -125,7 +125,7 @@ Circle.Visible = false; -- makes the inside invisble
 Circle.ZIndex = 1; -- sets its zorder to 1 so it appears over other objects
 Circle.Transparency = 1; -- makes it fully visible
 Circle.Color = Color3.fromRGB(255, 255, 255); -- fully white (the color changes to light green because of the colorpicker changing it at default)
-Circle.Thickness = 5; -- ill add a slider for this soon, this just changes the thickness of the circle (line size)
+Circle.Thickness = 5; -- ill add a slider for this soon, this just changes the thickness of the circle (line size) (coming in 3.0.4a)
 Circle.Radius = (getgenv()).Circle.Size; -- circle size
 local function SendNotification(Ti, Te) -- somewhat useless notif declaration
 	StarterGui:SetCore("SendNotification", {
