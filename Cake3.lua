@@ -1,5 +1,8 @@
 -- v3.0.3aa
 
+-- this was supposed to be the third mode for cake, but i decided not to.
+-- deprecated, saved for archive reasons
+
 --[[ DEVLOG ]]
 --[[
 
