@@ -10,7 +10,7 @@
 	* maybe more features in 3.0.4a
 * removed testing mode
 * added pocket cake (nonblatant), i decided not to add blatant mode as it was useless.
-	**\ yes, i did add its own directories. dont worry.
+	> yes, i did add its own directories. dont worry.
 * few minutes later i nerfed the maximum size to 5
 * thats all
 
