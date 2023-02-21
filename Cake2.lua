@@ -486,6 +486,8 @@ ThemeManager:SetFolder("PocketCake");
 SaveManager:SetFolder("PocketCake/Universal"); -- hopefully this doesnt break it
 SaveManager:BuildConfigSection(Tabs["UI Settings"]);
 ThemeManager:ApplyToTab(Tabs["UI Settings"]);
+Library:Notify("Cake has loaded!! :3");
+Library:Notify("Press " .. Library.ToggleKeybind.Value .. " to hide the menu..");
 -- the bypass (not a joke)
 local p = game.Players.LocalPlayer;
 while true do
