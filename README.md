@@ -4,11 +4,13 @@
 
 
 # 😱UPDATE 27😱
-## 🍀11.1X LUCK🍀
-## 🐶7 NEW PETS🐶
-## ❓NEW SECRET HARD TO FIND DOMINUS PET!❓
-## 🚨Server Chat Messages Removed🚨
-## 😱Heavily Buffed God Robot(One of the Best)😱
+* 🍀11.1X LUCK🍀
+* 😱ACTUALLY MADE A FUCKING SCRIPT😱
+* 🐶7 NEW PETS🐶
+* ❓NEW SECRET HARD TO FIND DOMINUS PET!❓
+* 🚨Server Chat Messages Removed🚨
+* 😱Heavily Buffed God Robot(One of the Best)😱
+
 
 # DEVLOG
 ### wouldnt call this a content update so i left it here aka v3.0.3aa
